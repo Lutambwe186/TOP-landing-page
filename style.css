@@ -2,11 +2,15 @@
 /*first part*/
 body{
     /*background-color: #1f2937;*/
+    flex: 1;
     margin: 0px;
     font-family: roboto;
 }
 .container-one{
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
     background-color: #1f2937;
    /* margin: -8px;
     padding: 0px;*/
@@ -112,4 +116,33 @@ a{
   .text-two{
     font-size: 18px;
     color: #1f2937;  
+  }
+  /*section thre*/
+  .section-three{
+    background-color: #e5e7eb;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .quote{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #63686e;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 250px 0px 250px;
+
+  }
+  .by{
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 300px;
   }
