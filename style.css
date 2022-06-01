@@ -2,13 +2,14 @@
 /*first part*/
 body{
     /*background-color: #1f2937;*/
+    margin: 0px;
     font-family: roboto;
 }
 .container-one{
-    height: 85vh;
+    height: 80vh;
     background-color: #1f2937;
-    margin: -8px;
-    padding: 0px;
+   /* margin: -8px;
+    padding: 0px;*/
 }
 .header{
     /*border: 2px solid ;*/
@@ -16,7 +17,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 60px 80px 200px;
+    margin: 0px 130px 80px 130px;
 }
 ul{
     display: flex;
@@ -36,11 +37,12 @@ a{
     
 }
 .section-one{
+    /*border: 2px solid red;*/
     display: flex;
     align-items: center;
-    margin: 0px 60px 180px 200px;
+    justify-content: space-between;
+    margin: 0px 130px 180px 130px;
     padding-bottom: 100px;
-    gap:28px;
 }
 .sub-section-one{
     width: 420px;
@@ -50,13 +52,15 @@ a{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
 }
 .sign-up{
     
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     width: 120px;
     height: 38px;
     border-radius: 8px;
@@ -68,14 +72,15 @@ a{
     height: 250px;
     border: 1px solid white;
 }
-.landing-text{
+.text-one{
   font-size: 18px;
   color: #e5e7eb;  
+  margin: 10px 0px;
 }
 /*second part*/
 .img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 8px;
     border: 4px solid #3882f6;
     margin-bottom: 10px;
@@ -84,12 +89,13 @@ a{
   .title-two{
     color: #1f2937;
     font-size: 36px;
-    margin: 38px;
+    font-weight: bolder;
+    margin: 48px;
   }
   .info {
     display: flex;
     flex-direction: column;
-    max-width: 150px;
+    max-width: 180px;
     
   }
   .container {
@@ -103,6 +109,7 @@ a{
     text-align: center;
     height: 75vh;
   }
-  .text{
-
+  .text-two{
+    font-size: 18px;
+    color: #1f2937;  
   }
