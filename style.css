@@ -2,7 +2,7 @@
 /*first part*/
 body{
     /*background-color: #1f2937;*/
-    flex: 1;
+    flex: 2;
     margin: 0px;
     font-family: roboto;
 }
@@ -94,7 +94,7 @@ a{
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
-    margin: 48px;
+    margin: 52px;
   }
   .info {
     display: flex;
@@ -144,5 +144,56 @@ a{
     justify-content: right;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 300px;
+    margin: 0px 0px 0px 300px;
+  } 
+  /*section four*/
+  .section-four{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .action{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  }
+  .call{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+  .text-three{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #f9faf8;
+  }
+  .sign{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    height: 38px;
+    border-radius: 8px;
+	border: 2px solid #f9faf8;
+    flex-shrink: 0;
+  }
+  /*footer*/
+  .footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#1f2937;
   }
