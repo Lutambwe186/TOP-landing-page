@@ -4,8 +4,8 @@ body{
     /*background-color: #1f2937;*/
     font-family: roboto;
 }
-.container{
-    max-height: 1000px;
+.container-one{
+    height: 85vh;
     background-color: #1f2937;
     margin: -8px;
     padding: 0px;
@@ -46,7 +46,7 @@ a{
     width: 420px;
     margin-right: 90px;
 }
-.title{
+.title-one{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -60,13 +60,49 @@ a{
     width: 120px;
     height: 38px;
     border-radius: 8px;
+	border-color: none;
+	border-style: none;
 }
 .image{
     width: 550px;
     height: 250px;
     border: 1px solid white;
 }
-.text{
+.landing-text{
   font-size: 18px;
   color: #e5e7eb;  
 }
+/*second part*/
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 4px solid #3882f6;
+    margin-bottom: 10px;
+  }
+  
+  .title-two{
+    color: #1f2937;
+    font-size: 36px;
+    margin: 38px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+    
+  }
+  .container-two {
+    text-align: center;
+    height: 75vh;
+  }
+  .text{
+
+  }
